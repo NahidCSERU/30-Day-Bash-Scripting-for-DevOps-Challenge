@@ -6,7 +6,7 @@ Day 2: Variables, strings, numbers, read user input
 Day 3: Conditional statements: if, else, elif   
 Day 4: Loops: for, while, until   
 Day 5: Command substitution, arithmetic operations  
-Day 6: Special variables: $0, $1, $@, $#, $?  
+Day 6: Special variables: $0, $1, $@, $, $?  
 Day 7: Practice mini scripts: calculator, simple file operations
 ## Week 2: Intermediate Scripting
 
