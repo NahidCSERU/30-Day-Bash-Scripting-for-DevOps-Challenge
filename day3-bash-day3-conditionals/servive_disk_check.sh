@@ -1,6 +1,8 @@
 #!/bin/bash
 # Usage: ./03_service_disk_check.sh <service-name> <disk-threshold-percent> <path>
 # Example: ./03_service_disk_check.sh nginx 80 /var
+# Author: <Nahid Hasan>
+# Date: 18.09.2025
 
 SERVICE=${1:-nginx}
 THRESHOLD=${2:-80}
