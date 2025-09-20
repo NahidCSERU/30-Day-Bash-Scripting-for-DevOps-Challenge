@@ -28,3 +28,11 @@ sum=$((num1 + num2))
 diff=$((num1 - num2))
 mul=$((num1 * num2))
 div=$((num1 / num2))
+
+# 5. Print results
+echo "=== Calculator Results ===" | tee -a $LOG_FILE
+echo "$num1 + $num2 = $sum" | tee -a $LOG_FILE
+echo "$num1 - $num2 = $diff" | tee -a $LOG_FILE
+echo "$num1 * $num2 = $mul" | tee -a $LOG_FILE
+echo "$num1 / $num2 = $div" | tee -a $LOG_FILE
+echo "==========================" | tee -a $LOG_FILE
