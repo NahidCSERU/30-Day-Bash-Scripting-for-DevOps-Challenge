@@ -9,3 +9,10 @@ LOG_FILE="logs.txt"
 USER_NAME=$(whoami)
 UPTIME_INFO=$(uptime -p)
 CURRENT_DATE=$(date)
+
+# 2. Print system info
+echo "=== System Report ===" | tee -a $LOG_FILE
+echo "User        : $USER_NAME" | tee -a $LOG_FILE
+echo "Uptime      : $UPTIME_INFO" | tee -a $LOG_FILE
+echo "Date & Time : $CURRENT_DATE" | tee -a $LOG_FILE
+echo "=====================" | tee -a $LOG_FILE
