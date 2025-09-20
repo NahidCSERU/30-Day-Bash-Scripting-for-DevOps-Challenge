@@ -1,5 +1,5 @@
 # Day 5: Bash Scripting Project 
-**Topic:** Command Substitution & Arithmetic Operations  
+**Topic:** Command Substitution & Arithmetic Operation 
 
 This project demonstrates how to use **command substitution** (`$(...)`) and **arithmetic operations** (`$((...))`) in Bash scripting through a simple **System Report & Calculator** script.  
 
