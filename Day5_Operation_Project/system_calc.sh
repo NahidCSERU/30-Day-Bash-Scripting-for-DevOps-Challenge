@@ -16,3 +16,15 @@ echo "User        : $USER_NAME" | tee -a $LOG_FILE
 echo "Uptime      : $UPTIME_INFO" | tee -a $LOG_FILE
 echo "Date & Time : $CURRENT_DATE" | tee -a $LOG_FILE
 echo "=====================" | tee -a $LOG_FILE
+
+# 3. Take user input
+echo -n "Enter first number: "
+read num1
+echo -n "Enter second number: "
+read num2
+
+# 4. Arithmetic Operations
+sum=$((num1 + num2))
+diff=$((num1 - num2))
+mul=$((num1 * num2))
+div=$((num1 / num2))
