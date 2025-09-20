@@ -23,7 +23,7 @@ read num1
 echo -n "Enter second number: "
 read num2
 
-# 4. Arithmetic Operations
+# 4. Arithmetic Operations 
 sum=$((num1 + num2))
 diff=$((num1 - num2))
 mul=$((num1 * num2))
