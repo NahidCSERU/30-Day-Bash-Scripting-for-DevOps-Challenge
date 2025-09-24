@@ -13,7 +13,7 @@ This repo contains a simple bash script to demonstrate:
 1. Clone the repo:
    ```
    git clone https://github.com/NahidCSERU/30-Day-Bash-Scripting-for-DevOps-Challenge.git
-   cd day8-bash-functions
+   cd day9-bash-arrays-loops
    ```
 2. Make the script executable:
 ```
