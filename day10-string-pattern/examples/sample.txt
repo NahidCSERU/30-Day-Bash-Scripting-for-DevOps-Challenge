@@ -1,0 +1,3 @@
+Hello Linux Day 10
+Learning shell scripting is fun.
+Pattern matching examples.
