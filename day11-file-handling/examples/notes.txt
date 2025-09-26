@@ -1,0 +1,3 @@
+Linux Day 11 Notes
+- File handling basics
+- cat, echo, >, >>
