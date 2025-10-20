@@ -1,0 +1,2 @@
+# Run the script every 1 minute
+* * * * * /usr/bin/python3 /path/to/day16-cron-jobs-scheduling/app/main.py >> /path/to/day16-cron-jobs-scheduling/logs/cron_output.log 2>&1
